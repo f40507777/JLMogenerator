@@ -171,7 +171,7 @@
 		79D2BFA00ACFB51A00F3F141 /* NSString+MiscAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSString+MiscAdditions.m"; path = "../MiscMerge/NSString+MiscAdditions.m"; sourceTree = "<group>"; };
 		79D2C0570ACFBCB500F3F141 /* FoundationAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FoundationAdditions.h; sourceTree = "<group>"; };
 		79D2C0580ACFBCB500F3F141 /* FoundationAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FoundationAdditions.m; sourceTree = "<group>"; };
-		8DD76FA10486AA7600D96B5E /* mogenerator */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = mogenerator; sourceTree = BUILT_PRODUCTS_DIR; };
+		8DD76FA10486AA7600D96B5E /* jlmogenerator */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = jlmogenerator; sourceTree = BUILT_PRODUCTS_DIR; };
 		D03C79F11B8BE77500A49BD8 /* NSString+MORegEx.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSString+MORegEx.h"; path = "categories/NSString+MORegEx.h"; sourceTree = "<group>"; };
 		D03C79F21B8BE77500A49BD8 /* NSString+MORegEx.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSString+MORegEx.m"; path = "categories/NSString+MORegEx.m"; sourceTree = "<group>"; };
 		EE5ED86517332E020013CCD1 /* NSManagedObjectModel+momcom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSManagedObjectModel+momcom.h"; sourceTree = "<group>"; };
@@ -243,7 +243,7 @@
 		1AB674ADFE9D54B511CA2CBB /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				8DD76FA10486AA7600D96B5E /* mogenerator */,
+				8DD76FA10486AA7600D96B5E /* jlmogenerator */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -389,9 +389,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		8DD76F960486AA7600D96B5E /* mogenerator */ = {
+		8DD76F960486AA7600D96B5E /* jlmogenerator */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1DEB927408733DD40010E9CD /* Build configuration list for PBXNativeTarget "mogenerator" */;
+			buildConfigurationList = 1DEB927408733DD40010E9CD /* Build configuration list for PBXNativeTarget "jlmogenerator" */;
 			buildPhases = (
 				7956A85B152E4A500081B5CA /* ShellScript */,
 				8DD76F990486AA7600D96B5E /* Sources */,
@@ -401,10 +401,10 @@
 			);
 			dependencies = (
 			);
-			name = mogenerator;
+			name = jlmogenerator;
 			productInstallPath = "$(HOME)/bin";
 			productName = mogenerator;
-			productReference = 8DD76FA10486AA7600D96B5E /* mogenerator */;
+			productReference = 8DD76FA10486AA7600D96B5E /* jlmogenerator */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
@@ -415,7 +415,7 @@
 			attributes = {
 				LastUpgradeCheck = 0700;
 			};
-			buildConfigurationList = 1DEB927808733DD40010E9CD /* Build configuration list for PBXProject "mogenerator" */;
+			buildConfigurationList = 1DEB927808733DD40010E9CD /* Build configuration list for PBXProject "jlmogenerator" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 1;
@@ -426,7 +426,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				8DD76F960486AA7600D96B5E /* mogenerator */,
+				8DD76F960486AA7600D96B5E /* jlmogenerator */,
 			);
 		};
 /* End PBXProject section */
@@ -540,7 +540,7 @@
 					__info_plist,
 					"$(DERIVED_FILE_DIR)/mogenerator-Info.plist",
 				);
-				PRODUCT_NAME = mogenerator;
+				PRODUCT_NAME = jlmogenerator;
 				WARNING_CFLAGS = "-Wall";
 			};
 			name = Debug;
@@ -562,7 +562,7 @@
 					__info_plist,
 					"$(DERIVED_FILE_DIR)/mogenerator-Info.plist",
 				);
-				PRODUCT_NAME = mogenerator;
+				PRODUCT_NAME = jlmogenerator;
 				WARNING_CFLAGS = "-Wall";
 			};
 			name = Release;
@@ -588,7 +588,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1DEB927408733DD40010E9CD /* Build configuration list for PBXNativeTarget "mogenerator" */ = {
+		1DEB927408733DD40010E9CD /* Build configuration list for PBXNativeTarget "jlmogenerator" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1DEB927508733DD40010E9CD /* Debug */,
@@ -597,7 +597,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		1DEB927808733DD40010E9CD /* Build configuration list for PBXProject "mogenerator" */ = {
+		1DEB927808733DD40010E9CD /* Build configuration list for PBXProject "jlmogenerator" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1DEB927908733DD40010E9CD /* Debug */,
